@@ -1,0 +1,97 @@
+* {
+	font-family: NanumBarunGothicOTF, sans-serif;
+}
+
+body {
+	cursor: pointer;
+}요
+
+
+.drawing circle {
+	fill: #035572;
+}
+
+.tag circle {
+/*	fill: #AA3356;
+*/}
+
+
+g {
+	opacity: 0.3;
+}
+
+line {
+	display: none;
+	pointer-events: none;
+}
+
+.graph-area {
+	width: 67vw;
+	height: 80vh;
+	display: inline-block;
+}
+
+svg#container {
+	width: 100%;
+	height: 100%;
+}
+
+.tooltip-area {
+	position: relative;
+/* 	top: 0;
+	left: 0; */
+	width: 27vw;
+	height: 72vh;
+	display: inline-block;
+	background-color: #f2f2f2;
+	-webkit-box-shadow: 6px 9px 33px -17px rgba(0,0,0,0.7);
+	-moz-box-shadow: 6px 9px 33px -17px rgba(0,0,0,0.7);
+	box-shadow: 6px 9px 33px -17px rgba(0,0,0,0.7);
+}
+
+.tooltip {
+	display: none;
+	position: absolute;
+	overflow: hidden;
+	opacity: 1 !important;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.tooltip iframe {
+	position: relative;
+	transform: scale(0.55);
+	transform-origin: left;
+}
+
+.show {
+	display: block;
+	opacity: 0.7;
+}
+
+.fix {
+	display: block;
+	opacity: 1;
+}
+
+.tooltip.fix {
+	opacity: 0.7;
+}
+
+line.activated {
+	display: block;
+}
+
+svg g.activated {
+	opacity: 1;
+}
+
+svg g.activated text {
+	fill: darken(inherit, 80);
+}
+
+svg g.drawing text {
+	font-size: 7px;
+}
+

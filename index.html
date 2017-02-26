@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+		<!-- <script
+			  src="https://code.jquery.com/jquery-3.0.0.min.js"
+			  integrity="sha256-JmvOoLtYsmqlsWxa7mDSLMwa6dZ9rrIdtrrVYRnDRH0="
+			  crossorigin="anonymous"></script> -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.11.8/semantic.min.css"/>
+		<link type="text/css" rel="stylesheet" href="dist/stylesheet.css" />
+	</head>
+	<body>
+    <div class="ui container" style="width: 1280px; margin: 0 auto;">
+     <div class="ui hidden divider"></div>
+	    <h2 class="ui center aligned large header" style="color:#444;">
+			  <i class="grey flag small icon" style="margin-top: -10px"></i>
+			  경기도 미술관 태그 관계 시각화
+			</h2>
+			<div class="ui center aligned basic segment" style="width: 800px; margin: 0 auto; padding: 8px; background-color: #f2f2f2; border-radius: 5px;">
+  			<p style="color: #777; font-size: 11px;"><i class="announcement icon"></i>경기도 미술관의 미술작품 정보와 태그의 관계를 시각화 한 페이지 입니다. 미술작품 노드와 텍스트를 클릭(<i class="pointing up icon"></i>)하시면 연결된 정보를 확인(<i class="eye icon"></i>)할 수 있습니다.</p>
+			</div>
+			<div class="ui hidden divider"></div>
+			<div class="ui divider"></div>
+			<div class="ui hidden divider"></div>
+		</div>
+		<div class="ui fluid container">
+			<div class="graph-area">
+			  <svg id="container"></svg>
+			</div>
+			<div class="tooltip-area">
+			</div>
+		</div>
+
+		<script src="dist/custom.js"></script>
+	</body>
+</html>
