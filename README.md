@@ -16,19 +16,19 @@ This study suggests a data visualization that connects the relationship of the t
 4. **Data visualisation** : visualized networks of data set (nodes of tag and artwork) with [D3.js ](https://d3js.org/) libraries on HTML documents
 
 ### Results
-** Basic layout**
+* **Basic layout**
 
 ![](dist/figure/basic.png)
 
 <br />
 
-** When user clicks tag nodes**
+* **When user clicks tag nodes**
 
 ![](dist/figure/tags.png)
 
 <br />
 
-** When user clicks artwork nodes**
+* **When user clicks artwork nodes**
 
 ![](dist/figure/artworks.png)
 
@@ -37,15 +37,15 @@ This study suggests a data visualization that connects the relationship of the t
 
 ### How to see on your computer
 
-**1. Clone this repo**
+* Clone this repo
 
 ```git clone https://github.com/soimhur/museum-tag-visualization.git```
 
-**2. Go to the folder**
+* Go to the folder
 
 ```cd museum-tag-visualization```
 
-**3. Make python server active on your local computer**
+* Make python server active on your local computer
 
 ```python -m SimpleHTTPServer 8888```
 
